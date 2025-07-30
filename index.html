@@ -40,7 +40,7 @@
 			<div class="navbar-links">
 				<a href="#fh5co-about">About</a>
 				<a href="#fh5co-skills">Skills</a>
-				<a href="#fh5co-portfolio">Timeline</a>
+				<a href="#fh5co-work">Experience</a>
 			</div>
 		</div>
 	</nav>
@@ -58,7 +58,7 @@
 
 								<div class="profile-thumb" style="background: url(images/perfil3.jpeg);"></div>
 								<h1><span>Jean Duarte</span></h1>
-								<h2><span>A guy who cares about writing pretty code</span></h2>
+								<h2><span id="message">A guy who cares about writing pretty code</span></h2>
 								<div>
 									<ul class="fh5co-social-icons">
 										<li><a href="#fh5co-about"><i class="icon-arrow-down22"></i></a></li>
@@ -133,25 +133,13 @@
 					<div class="col-md-7" style="text-align: justify;">
 						<h2>Hi There!</h2>
 						<p>
-							A 5+ years Brazilian developer passionate about developing highly scalable and resilient
-							applications.
-							I love everything from databases to microservices, passing by DevOps, to the client.
-							I find it amazing to think about how all pieces work together to bring an excellent
-							experience to the end user.
-						</p>
-
-						<p>
-							When I was a teenager I took some courses focused on game development and design.
-							But at that time I thought that programming was not my thing until
-							I won a scholarship in Canada and there I was able to study programming a little more and
-							see that I really liked it.
-							And right now I'm taking a MBA in software architecture.
+							I'm a results-driven software engineer with 5+ years of experience delivering robust, scalable, and innovative solutions for global companies. My passion is building high-quality systems that solve real business problems and create value for users and organizations.
 						</p>
 						<p>
-							I've been through different development experiences, developing SDKs, and back-end/front-end
-							applications.
-							With all these different experiences it made me understand that I really want to focus on
-							backend development.
+							With a strong foundation in backend development, cloud integration, and DevOps, I thrive in dynamic, multicultural teams and adapt quickly to new challenges. I have a proven track record of leading projects from concept to production, mentoring teams, and exceeding expectations in fast-paced environments.
+						</p>
+						<p>
+							I'm eager to bring my expertise, energy, and collaborative spirit to international opportunities where I can make a meaningful impact, drive technical excellence, and help organizations achieve their goals on a global scale.
 						</p>
 
 					</div>
@@ -170,15 +158,17 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4" style="text-align: justify;">
-						<p><b> I have a diverse skill set that includes backend development, DevOps practices, and a
-								strong understanding of software architecture.
-								My expertise lies in Java, Spring Boot, and various database technologies, allowing me
-								to build robust and scalable applications.
-							</b></p>
+					<div class="col-md-6" style="text-align: justify;">
+						<p><b>
+							I have a diverse skill set that includes backend development, DevOps practices, and a strong understanding of software architecture.
+							My expertise lies in Java, Spring Boot, and various database technologies, allowing me to build robust and scalable applications.<br>
+							I am experienced in designing microservices, implementing CI/CD pipelines, and integrating cloud solutions.<br>
+							My background covers frontend and backend development, automated testing, and agile methodologies.<br>
+							I am passionate about mentoring, code quality, and delivering value through innovative and maintainable solutions.
+						</b></p>
 					</div>
 					<!-- Skills Section -->
-					<div class="col-md-8" style="text-align: justify;">
+					<div class="col-md-6" style="text-align: justify;">
 
 						<div class="row skillSection">
 							<a href="https://www.java.com/" target="_blank" class="btn btn-primary">Java <i
@@ -246,58 +236,128 @@
 		</div>
 
 		<!-- Portfolio Timeline Section -->
-		<div id="fh5co-portfolio" class="animate-box">
+		<div id="fh5co-work" class="animate-box">
 			<div class="container">
 				<!-- Menu for Portfolio -->
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>Timeline</h2>
+						<h2>Work Experience</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
-						<ul class="timeline">
-							<li>
-								<div class="timeline-badge"><i class="icon-briefcase"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Mid Fullcycle Developer</h3>
-										<span class="timeline-date">2021 - Present</span>
+						<div id="timeline-scroll-wrapper" style="overflow-x:auto; overflow-y:hidden; width:100%; padding-bottom:24px;">
+							<div id="timeline" class="timeline horizontal-timeline-wrapper">
+								<div class="horizontal-timeline">
+									<!-- BEES -->
+									<div class="timeline-card">
+										<div class="timeline-badge"><i class="icon-briefcase"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Senior Software Engineer - BEES</h3>
+												<span class="timeline-date">Jun 2024 - Present</span>
+											</div>
+											<div class="timeline-body">
+												<ul>
+													<li>Successfully integrated the system with OpenAI to optimize order creation workflows.</li>
+													<li>Implemented microservices to enhance system scalability and service idempotency. Our services can understand and create client order in less than 30 seconds.</li>
+													<li>I lead a team of 8 members, 4 back-end developer, 2 front-end developers and 2 quality analyst.</li>
+													<li>
+														<strong>Context:</strong> As a Software Engineer at BEES, my job is multifaceted and dynamic, encompassing the entire software development lifecycle. Responsibilities include developing new functionalities with high efficiency and accuracy, conducting thorough code reviews for team members, and resolving bugs reported by QA engineers with an average resolution time of one day.
+													</li>
+												</ul>
+											</div>
+										</div>
 									</div>
-									<div class="timeline-body">
-										<p>Developing scalable backend solutions, integrating microservices, and leading
-											DevOps initiatives at [Your Company].</p>
+									<!-- Wipro -->
+									<div class="timeline-card">
+										<div class="timeline-badge"><i class="icon-briefcase"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Software Engineer - Wipro</h3>
+												<span class="timeline-date">Mar 2022 - Jun 2024</span>
+											</div>
+											<div class="timeline-body">
+												<ul>
+													<li>
+														<strong>Context:</strong> Developing Mastercard's Identity Solution, an application that helps entities authenticate and validate customers' digital identity. Main activities include feature and story refinements with product owners, feature development with at least 90% coverage, and mentoring junior developers.
+													</li>
+												</ul>
+											</div>
+										</div>
 									</div>
+									<!-- SiDi -->
+									<div class="timeline-card">
+										<div class="timeline-badge"><i class="icon-briefcase"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Software Developer - SiDi</h3>
+												<span class="timeline-date">Apr 2021 - Mar 2022</span>
+											</div>
+											<div class="timeline-body">
+												<ul>
+													<li>
+														<strong>Context:</strong> Working with Kanban methodology, developing tools for other developers to work on the Samsung desktop environment using technologies like Java, C++, C#, SQLite, and Entity Framework on an Onion architecture.
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- Avanade -->
+									<div class="timeline-card">
+										<div class="timeline-badge"><i class="icon-briefcase"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Software Engineer - Avanade</h3>
+												<span class="timeline-date">Jun 2020 - Apr 2021</span>
+											</div>
+											<div class="timeline-body">
+												<ul>
+													<li>
+														<strong>Context:</strong> Developed APIs to help the company modernize its old Insure broker application from a Cobol-based application. Participated in new feature development to inform clients which plan suits them best.
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- MV -->
+									<div class="timeline-card">
+										<div class="timeline-badge"><i class="icon-briefcase"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Junior Software Developer - MV</h3>
+												<span class="timeline-date">Oct 2019 - Jun 2020</span>
+											</div>
+											<div class="timeline-body">
+												<ul>
+													<li>
+														<strong>Context:</strong> Worked in the system integration team providing support for current software written in PL/SQL and developing a new API in Spring Boot for software integration.
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- Procenge -->
+									<div class="timeline-card">
+										<div class="timeline-badge"><i class="icon-briefcase"></i></div>
+										<div class="timeline-panel">
+											<div class="timeline-heading">
+												<h3 class="timeline-title">Software Engineer Intern - Procenge</h3>
+												<span class="timeline-date">Aug 2018 - Oct 2019</span>
+											</div>
+											<div class="timeline-body">
+												<ul>
+													<li>
+														<strong>Context:</strong> Worked as a Front-end software developer intern, participating in all Scrum ceremonies to help the team evaluate and develop the product.
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<!-- ...existing code for education or other timeline cards if any... -->
 								</div>
-							</li>
-							<li>
-								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">MBA in Software Architecture</h3>
-										<span class="timeline-date">2023 - Present</span>
-									</div>
-									<div class="timeline-body">
-										<p>Currently pursuing an MBA focused on software architecture, design patterns,
-											and scalable systems.</p>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="timeline-badge"><i class="icon-earth"></i></div>
-								<div class="timeline-panel">
-									<div class="timeline-heading">
-										<h3 class="timeline-title">Scholarship in Canada</h3>
-										<span class="timeline-date">2017</span>
-									</div>
-									<div class="timeline-body">
-										<p>Studied programming and software development abroad, discovering a passion
-											for coding and technology.</p>
-									</div>
-								</div>
-							</li>
-							<!-- Add more timeline items as needed -->
-						</ul>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -328,7 +388,31 @@
 		<script src="js/main.js"></script>
 		<script>
 			document.getElementById('currentYear').textContent = new Date().getFullYear();
+			const phrases = [
+				"A guy who cares about writing pretty code",
+				"Passionate about scalable and resilient systems",
+				"Always learning and sharing knowledge",
+				"Focused on delivering value with quality",
+				"Team player and mentor",
+				"Driven by curiosity and innovation",
+				"Backend enthusiast with DevOps mindset",
+				"Building solutions that make a difference",
+				"Committed to continuous improvement",
+				"Exploring new technologies and methodologies",
+				"Crafting software with passion and precision",
+				"Striving for excellence in every project",
+				"AI and automation advocate",
+				"Creating efficient and maintainable code",
+				"Gamer turned developer",
+				"From game design to software architecture",
+				"Transforming ideas into reality through code",
+			];
+			let phraseIndex = 0;
+			const messageEl = document.getElementById('message');
+			setInterval(() => {
+				phraseIndex = (phraseIndex + 1) % phrases.length;
+				messageEl.textContent = phrases[phraseIndex];
+			}, 5000);
 		</script>
 </body>
-
 </html>
